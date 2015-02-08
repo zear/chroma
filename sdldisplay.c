@@ -2746,7 +2746,7 @@ void display_screensizemenu()
     struct menu* pmenu;
     struct menuentry *pentry;
 
-    int sizes[6][2] = { {640, 480}, {800, 600}, {1024, 768}, {1280, 1024}, {1600, 1200}, {0, 0} };
+    int sizes[7][2] = { {320, 240}, {640, 480}, {800, 600}, {1024, 768}, {1280, 1024}, {1600, 1200}, {0, 0} };
     int i;
     char buffer[256], tmp[256];
     int custom;
